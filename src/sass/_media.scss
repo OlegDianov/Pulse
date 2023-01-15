@@ -94,4 +94,46 @@
             margin: 30px auto 0 auto;
         }
     }
+
+    .carousel {
+        display: none;
+    }
+
+    .catalog {
+        padding: 40px 0 40px 0;
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 167px;
+        }
+        &-item {
+            margin: 20px auto 20px auto;
+        }
+    }
+    .feed {
+        &__item {
+            margin-top: 60px;
+            flex-direction: column;
+        }
+        &__img {
+            margin: 0 auto 20px auto;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
+        }
+        &__text {
+            margin: 0;
+            padding: 0 60px;
+        }
+    }
+    .footer {
+        &__info {
+            position: relative;
+            width: 100%;
+        }
+    }
 }
